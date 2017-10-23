@@ -5,7 +5,7 @@
 1. Install [git-town](http://www.git-town.com/install.html)
 1. Check, edit, save and run `git-helper.sh`
 1. Install [node.js+npm](https://nodejs.org/en/download/)
-1. Check, edit, save and run `npm-set.sh` as **admin**. Shell script contains:
+1. Check, edit, save and run `npm-set.sh` as **admin**. Shell scriptgit repo contains:
    * [doctoc](https://github.com/thlorenz/doctoc) - 
      automate TOC creation for MD files.
      - use placeholder `<!-- START doctoc -->\n<!-- END doctoc -->`
