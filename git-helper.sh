@@ -4,3 +4,4 @@ git config --global alias.logg "log --graph --full-history --all --color --prett
 git config --global core.editor "'D:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin '$*'"
 git config --global core.pager cat
 git town alias true
+git config git-town.code-hosting-driver github
