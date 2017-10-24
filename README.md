@@ -10,3 +10,5 @@
      automate TOC creation for MD files.
      - use placeholder `<!-- START doctoc -->\n<!-- END doctoc -->`
      - use example: `doctoc README.md --github`
+1. Copy `git-completion.bash` and `git-prompt.sh` to your home dir
+   (Windows: `C:\Users\%username%\`)
