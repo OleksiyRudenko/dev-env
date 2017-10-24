@@ -12,3 +12,9 @@
      - use example: `doctoc README.md --github`
 1. Copy `git-completion.bash` and `git-prompt.sh` to your home dir
    (Windows: `C:\Users\%username%\`)
+1. Use `bash_profile_course` following the
+   [instructions](https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923)
+   (note that `bash_profile_course` is renamed here into `.bash_profile`):
+   supplement existing `$HOME\.bash_profile` with contents from `.bash_profile` or
+   copy `.bash_profile` to your home dir
+
