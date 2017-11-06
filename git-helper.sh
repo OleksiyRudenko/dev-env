@@ -6,6 +6,7 @@ git config --global core.editor "'D:/Program Files (x86)/Notepad++/notepad++.exe
 git config --global core.pager cat
 git config --global color.ui true
 git config --global merge.conflictstyle diff3
+git config --global core.excludesfile ~/.gitignore
 # Windows specific
 git config --system core.longpaths true
 git town alias true

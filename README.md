@@ -3,6 +3,7 @@
 1. Install [notepad++/Windows](https://notepad-plus-plus.org/download/)
 1. Install [git](https://git-scm.com/)
 1. Install [git-town](http://www.git-town.com/install.html)
+1. Copy `.gitignore` to your $HOME (`~/`)
 1. Check, edit, save and run `git-helper.sh`
 1. Install [node.js+npm](https://nodejs.org/en/download/)
 1. Check, edit, save and run `npm-set.sh` as **admin**. Shell scriptgit repo contains:
