@@ -6,6 +6,7 @@ git config --global core.pager cat
 # git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 git config --global color.ui true
+git config --global core.excludesfile ~/.gitignore
 # aliases
 git config --global alias.logg "log --graph --full-history --all --color --pretty=format:\"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s\""
 git config --global alias.co checkout
