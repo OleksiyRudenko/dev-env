@@ -14,7 +14,9 @@ It would be available from file explorer context menu.
 Some scripts require you to fix filepath, credentials, etc
 (as denoted).
 
-Some scripts will require administrative privileges to run.
+Some scripts will require administrative privileges
+and may require `chmod u=rwx *.sh` to run.
+Remember to precede script with explicit path, e.g. `./script.sh`
 
 ## Pre-requisites
 
@@ -59,6 +61,8 @@ Locate your installed applications directory ($PROGRAMS)
  * Edit `.gitignore` adding directory name your favourite IDE
    creates under project directory and you don't want to get tracked
  * Copy `.gitignore` to your $HOME
+ * You will need `git config --global core.excludesfile ~/.gitignore`
+   for the above to work (already available in `git-helper.sh`)
  * Study `git-helper.sh`, try commands assigned to aliases
    on some of your repos to see what those do; edit your credentials
  * Run `git-helper.sh`
@@ -98,7 +102,13 @@ Credits:
    one of git workflow supporting framework;
    `git-town-set.sh` offers initial settings
 
- ## Issues?
+## Similar resources
+
+ * [Git going with aliases](https://hackernoon.com/git-going-with-aliases-a9706e23fa9c)
+ * [https://medium.com/@vitalyb/creating-powerful-git-aliases-3dfc0efc9a31](https://medium.com/@vitalyb/creating-powerful-git-aliases-3dfc0efc9a31)
+ * [robmiller/.gitconfig@github](https://gist.github.com/robmiller/6018582)
+
+## Issues?
 
  If anything above contains errors, not quite clear or requires
  improvement or update, please, feel free adding an

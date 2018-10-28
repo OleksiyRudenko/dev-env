@@ -13,5 +13,9 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
+# next syncs local master and origin/master with upstream master
+git config --global alias.sync-master '!git checkout master && git pull upstream master && git push origin master'
+# next syncs current branch recursively with upstream and local & origin master
+git config --global alias.sync-branch '!git sync-master && git checkout - && git merge master'
 # Windows specific
 git config --system core.longpaths true
