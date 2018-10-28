@@ -102,8 +102,9 @@ Credits:
    one of git workflow supporting framework;
    `git-town-set.sh` offers initial settings
 
-## Similar resources
+## More related resources
 
+ * [yevhenorlov/dotfiles@github](https://github.com/yevhenorlov/dotfiles)
  * [Git going with aliases](https://hackernoon.com/git-going-with-aliases-a9706e23fa9c)
  * [https://medium.com/@vitalyb/creating-powerful-git-aliases-3dfc0efc9a31](https://medium.com/@vitalyb/creating-powerful-git-aliases-3dfc0efc9a31)
  * [robmiller/.gitconfig@github](https://gist.github.com/robmiller/6018582)
