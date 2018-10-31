@@ -101,6 +101,10 @@ Credits:
  * [git-town](http://www.git-town.com/install.html) is
    one of git workflow supporting framework;
    `git-town-set.sh` offers initial settings
+ * [git-subrepo](https://github.com/ingydotnet/git-subrepo) is a great replacement
+   for `git-submodule` and `git-subtree`; refer to
+   [Repo import and export back](https://gist.github.com/OleksiyRudenko/86d378b56fe690e47a066b8eeb4ac5b2)
+   for a use case
 
 ## More related resources
 
