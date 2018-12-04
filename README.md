@@ -64,7 +64,18 @@ Locate your installed applications directory ($PROGRAMS)
  * You will need `git config --global core.excludesfile ~/.gitignore`
    for the above to work (already available in `git-helper.sh`)
  * Study `git-helper.sh`, try commands assigned to aliases
-   on some of your repos to see what those do; edit your credentials
+   on some of your repos to see what those do; edit your credentials.
+   Some of aliases:
+   - `sync-master-upstream` - updates local `master` and `origin/master`
+     with `upstream/master`
+   - `sync-branch-upstream-merge`
+     - calls `sync-master-upstream`
+     - updates feature branch from `master` using simple merge strategy
+   - `sync-master` - updates local `master` from `origin/master`
+     when on a feature branch
+   - `sync-branch-rebase` - rebases current branch onto (updated)
+     `master`; conflicts may arise
+   - `sync-branch-continue` - completes reabasing after conflict resolution
  * Run `git-helper.sh`
 
 #### Tweak terminal
