@@ -23,8 +23,10 @@ Remember to precede script with explicit path, e.g. `./script.sh`
 You have installed
  * [git](https://git-scm.com/downloads)
  * [node.js+npm](https://nodejs.org/en/download/)
- * Optional: [yarn](https://yarnpkg.com/en/docs/install) or [pnpm](https://pnpm.js.org/docs/en/installation.html)
-   ([`npm` vs `yarn` vs `pnpm`](https://www.alexkras.com/understanding-differences-between-npm-yarn-and-pnpm/))
+ * Optional: [yarn](https://yarnpkg.com/en/docs/install) or [pnpm](https://pnpm.js.org/docs/en/installation.html);
+   **NB** [`npm` vs `yarn` vs `pnpm`](https://www.alexkras.com/understanding-differences-between-npm-yarn-and-pnpm/);
+   **NB** Under Windows `pnpm` may require that packages repository and projects are on the same hard drive
+   (pnpm uses hard links, Windows poses restrictions; please, google for details)
  * Windows only: [Git Credential Manager for Windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases)
 
 ## Git Helpers
