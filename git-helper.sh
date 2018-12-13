@@ -13,6 +13,8 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
+# next lists branches you worked on (most recent goes first)
+git config --global alias.branch-history "for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/"
 # Windows specific
 git config --system core.longpaths true
 # UPSTREAM/ORIGIN sync
