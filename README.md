@@ -99,6 +99,8 @@ Make your terminal shell prompt informative
 Credits:
 [Udacity](https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923)
 
+[Customize Linux/Mac terminal prompt](https://gist.github.com/ankurk91/2efe14650d54d7d09528cea3ed432f6d)
+
 ## Utils
 
  * Run `utils-npm.sh` or `utils-yarn.sh` if you prefer `yarn`
