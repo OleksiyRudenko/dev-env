@@ -62,12 +62,12 @@ Locate your installed applications directory ($PROGRAMS)
 
 #### Global git helpers
  * Edit `.gitignore` adding directory name your favourite IDE
-   creates under project directory and you don't want to get tracked
+   creates under project directory that you don't want to get tracked
  * Copy `.gitignore` to your $HOME
  * You will need `git config --global core.excludesfile ~/.gitignore`
    for the above to work (already available in `git-helper.sh`)
  * Study `git-helper.sh`, try commands assigned to aliases
-   on some of your repos to see what those do; edit your credentials.
+   on some of your repos to see what those do.
    Some of aliases:
    - `sync-master-upstream` - updates local `master` and `origin/master`
      with `upstream/master`
@@ -79,6 +79,9 @@ Locate your installed applications directory ($PROGRAMS)
    - `sync-branch-rebase` - rebases current branch onto (updated)
      `master`; conflicts may arise
    - `sync-branch-continue` - completes reabasing after conflict resolution
+ * If `git` often asks you for your identification or just installed `git` and
+   haven't configured it yet, it is time to configure your identity for `git`.
+   Edit two initial lines in `git-helper.sh` accordingly and uncomment them.
  * Run `git-helper.sh`
 
 #### Tweak terminal

@@ -1,5 +1,5 @@
-git config --global user.name OleksiyRudenko
-git config --global user.email fake-address@gmail.com
+# git config --global user.name OleksiyRudenko
+# git config --global user.email fake-address@gmail.com
 git config --global format.commitMessageColumns 72
 git config --global core.pager cat
 # git config --global push.default upstream
